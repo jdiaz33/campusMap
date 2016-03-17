@@ -23,6 +23,8 @@ body {
 	height: 40px;
 	display: flex;
 	margin: 5px;
+	border-style: groove;
+	border-color: gray;
 }
 #mapButtons {
 	background-color: #CD2007;
@@ -31,6 +33,8 @@ body {
 	display: flex;
 	margin: 5px;
 	margin-top: -3px;
+	border-style: groove;
+	border-color: gray;
 }
 #dir {
 	height: 90px;
