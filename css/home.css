@@ -1,0 +1,46 @@
+body {
+	background: url('../img/Fondo.gif');
+	background-repeat: repeat-y;
+	background-position: center center;
+	background-attachment: scroll;
+	background-size: 100% 100%;
+}
+.ui-page {
+	background: transparent;
+}
+.ui-content {
+	background: transparent;
+}
+#controls {
+	margin-top: 320px;
+}
+#mainButtons {
+	margin-top: 10px;
+}
+#directoryButtons {
+	background-color: #CD2007;
+	border-radius: 10px;
+	height: 40px;
+	display: flex;
+	margin: 5px;
+}
+#mapButtons {
+	background-color: #CD2007;
+	border-radius: 10px;
+	height: 40px;
+	display: flex;
+	margin: 5px;
+	margin-top: -3px;
+}
+#dir {
+	height: 90px;
+	width: 100px;
+	margin-left: 200px;	
+	margin-top: -18px;
+}
+#map {
+	height: 80px;
+	width: 100px;
+	margin-left: 20px;
+	margin-top: -18px;
+}
