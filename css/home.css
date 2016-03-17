@@ -35,7 +35,7 @@ body {
 #dir {
 	height: 90px;
 	width: 100px;
-	margin-left: 200px;	
+	margin-left: 20px;	
 	margin-top: -18px;
 }
 #map {
@@ -43,4 +43,18 @@ body {
 	width: 100px;
 	margin-left: 20px;
 	margin-top: -18px;
+}
+#dirTitle {
+	color: white;
+	text-shadow: none;
+	margin-top: -1px;
+	padding-top: 6px;
+	margin-left: 50px;
+}
+#mapTitle {
+	color: white;
+	text-shadow: none;
+	margin-top: -1px;
+	padding-top: 6px;
+	margin-left: 50px;
 }
