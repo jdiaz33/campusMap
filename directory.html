@@ -1,41 +1,47 @@
 <!doctype html>
 <html>
 	<head>
-   		<title>NJIT Campus Map</title>
+   		<title>Directory</title>
    		<meta name="viewport" content="width=device-width, initial-scale=1">
-   		<!--<link rel="stylesheet" type="text/css" href="css/home.css">-->
    		<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-   		<link rel="stylesheet" type="text/css" href="css/home.css">
+   		<link rel="stylesheet" type="text/css" href="css/dir.css">
    		<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
    		<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 	</head>
 		
 	<body>
 		<div data-role="page">
-			<div id="controls" data-role="content">
-				<div data-role="content">
-					<input type="search" name="search" id="search-basic" value="" />
+			<div data-role="header">
+				<h2>DIRECTORY</h2>
+			</div><!--header-->
+
+			<div data-role="content">
+				<div data-filter="true">
+					<div data-role="collapsible">
+						<h3>Campus Center</h3>
+						<p>Here is the list for Campus Center</p>
+					</div>
+					<div data-role="collapsible">
+						<h3>Kupfrian Hall</h3>
+						<p>Here goes the list for Kupfrian Hall</p>
+					</div>
+					<div data-role="collapsible">
+						<h3>Building C</h3>
+						<p>Once agian the info for building C</p>
+					</div>
 				</div>
-				<div id="mainButtons">
-					<div id="directoryButtons">
-						<div>
-							<h2 id="dirTitle">DIRECTORY</h2>
-						</div>
-						<div id="dir">
-							<img src="img/directorio7.png"/>
-						</div>
-					</div><!--directoryButtons-->
-					<br>
-					<div id="mapButtons">
-						<div id="map">
-							<img src="img/mapa.png"/>
-						</div>
-						<div>
-							<h2 id="mapTitle">MAP</h2>
-						</div>
-					</div><!--mapButtons-->
-				</div><!--mainButtons-->
-			</div><!--controls-->
+				<ul data-role="listview" data-inset="true">
+					<li>Audi</li>
+					<li>BMW</li>
+					<li>Cadillac</li>
+				</ul>
+				<a href="index.html" class="ui-btn ui-icon-carat-d ui-btn-icon-right">Home</a>
+			</div><!--content-->
+
+			<div data-role="footer" data-position="fixed">
+				<h2>Menu</h2>
+			</div><!--footer-->
+
 		</div><!-- /page -->
 	</body>
 </html>
